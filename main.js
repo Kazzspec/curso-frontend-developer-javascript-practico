@@ -26,9 +26,11 @@ function toggleMobileMenu(){
 
 function toggleCartIcon(){
     const isMobileMenuClosed = mobileMenu.classList.contains('inactive');
+    const isDesktopMenuClosed= desktopMenu.classList.contains('inactive');
 
-    if(!isMobileMenuClosed){
+    if((!isMobileMenuClosed)  || (!isDesktopMenuClosed)){
         mobileMenu.classList.add('inactive');
+        desktopMenu.classList.add('inactive')
     }
     productDetail.classList.toggle('inactive')
 
