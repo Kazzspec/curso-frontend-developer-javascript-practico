@@ -103,6 +103,7 @@ for (product of productList){
    const productInfoFigure = document.createElement('figure');
    const productImgCart = document.createElement('img');
    productImgCart.setAttribute('src','./icons/bt_add_to_cart.svg')
+//    productImgCart.classList.add('carrito')
 
    productInfoFigure.appendChild(productImgCart);
 
