@@ -44,41 +44,49 @@ function closeProductDetailAside() {
     productDetailContainer.classList.add("inactive");
 }
 
+function mostrarInfoProducto(name, price, image) {}
+
 const productList = [];
 productList.push({
-    name: "bike",
-    price: 120,
-    image: "https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    name: "CPU",
+    price: 780,
+    image: "https://images.pexels.com/photos/1010487/pexels-photo-1010487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 });
 
 productList.push({
-    name: "pantalla",
-    price: 120,
-    image: "https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    name: "Tarjeta Grafica",
+    price: 320,
+    image: "https://images.pexels.com/photos/11443548/pexels-photo-11443548.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 });
 
 productList.push({
-    name: "laptop",
-    price: 120,
-    image: "https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    name: "Imac",
+    price: 480,
+    image: "https://images.pexels.com/photos/38568/apple-imac-ipad-workplace-38568.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 });
 
 productList.push({
-    name: "bike",
-    price: 120,
-    image: "https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    name: "Perifericos",
+    price: 200,
+    image: "https://images.pexels.com/photos/585752/pexels-photo-585752.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 });
 
 productList.push({
-    name: "pantalla",
-    price: 120,
-    image: "https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    name: "Camara",
+    price: 600,
+    image: "https://images.pexels.com/photos/51383/photo-camera-subject-photographer-51383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 });
 
 productList.push({
-    name: "laptop",
-    price: 120,
-    image: "https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    name: "Celular",
+    price: 800,
+    image: "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+});
+
+productList.push({
+    name: "SmartWatch",
+    price: 350,
+    image: "https://images.pexels.com/photos/1682821/pexels-photo-1682821.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 });
 
 function renderProducts(arr) {
